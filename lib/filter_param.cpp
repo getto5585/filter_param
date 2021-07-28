@@ -177,7 +177,7 @@ FilterType FilterParam::analyze_type(string& input)
 	{
 		type = FilterType::LPF;
 	}
-	else if(true)
+	else if(true)	// hpf, bpf, bef バリエーション
 	{
 		fprintf(stderr, "Error: [%s l.%d]It has not been implement yet.(input : \"%s\")\n",
 				__FILE__, __LINE__, input.c_str());
